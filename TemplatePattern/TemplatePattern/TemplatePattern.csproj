@@ -43,7 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractHouse.cs" />
+    <Compile Include="BrickHouse.cs" />
     <Compile Include="PanelHouse.cs" />
+    <Compile Include="PrivateHouse.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

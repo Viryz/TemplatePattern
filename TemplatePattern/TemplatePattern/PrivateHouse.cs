@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 
 namespace TemplatePattern
 {
-    class PanelHouse : AbstractHouse
+    class PrivateHouse : AbstractHouse
     {
         public override void BuildFloor()
         {
-            Console.WriteLine("Build 9 floors");
+            Console.WriteLine("Build 2 floors");
         }
 
         public override void BuildRoof()
         {
-            Console.WriteLine("Build panel roof");
+            Console.WriteLine("Build slate foof");
         }
 
         public override void BuildWalls()
         {
-            Console.WriteLine("Build panel walls");
+            Console.WriteLine("Build wooden walls");
         }
     }
 }

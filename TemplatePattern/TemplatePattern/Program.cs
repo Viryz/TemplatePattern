@@ -10,6 +10,17 @@ namespace TemplatePattern
     {
         static void Main(string[] args)
         {
+            AbstractHouse house = new PanelHouse();
+            house.Build();
+            Console.WriteLine("***************************");
+            house = new BrickHouse();
+            house.Build();
+            Console.WriteLine("***************************");
+            house = new PrivateHouse();
+            house.Build();
+            Console.WriteLine("***************************");
+
+            Console.ReadLine();
         }
     }
 }

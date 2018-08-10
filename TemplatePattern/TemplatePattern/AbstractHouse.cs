@@ -12,12 +12,15 @@ namespace TemplatePattern
         {
             Console.WriteLine("Build foundation");
         }
+
+        public abstract void BuildFloor();
         public abstract void BuildWalls();
         public abstract void BuildRoof();
 
         public void Build()
         {
             BuildFoundation();
+            BuildFloor();
             BuildWalls();
             BuildRoof();
         }
